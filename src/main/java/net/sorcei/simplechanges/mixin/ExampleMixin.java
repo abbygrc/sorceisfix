@@ -1,4 +1,4 @@
-package sorcei.deepslatestairsmod.mixin;
+package net.sorcei.simplechanges.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
