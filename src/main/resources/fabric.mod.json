@@ -3,23 +3,19 @@
 	"id": "deepslatestairsmod",
 	"version": "${version}",
 	"name": "Deepslate Stairs Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Fix for nonexistent deepslate stairs in custom modpack.",
 	"authors": [
-		"Me!"
+		"Sorcei"
 	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
+	"license": "MIT License",
 	"icon": "assets/deepslatestairsmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"sorcei.deepslatestairsmod.ExampleMod"
+			"sorcei.deepslatestairsmod.DeepslateStairsMod"
 		],
 		"client": [
-			"sorcei.deepslatestairsmod.ExampleModClient"
+			"sorcei.deepslatestairsmod.DeepslateStairsModClient"
 		]
 	},
 	"mixins": [
