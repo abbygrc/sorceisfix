@@ -3,7 +3,6 @@ package net.sorcei.simplechanges;
 import net.fabricmc.api.ModInitializer;
 
 import net.sorcei.simplechanges.block.ModBlocks;
-import net.sorcei.simplechanges.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,7 +12,6 @@ public class SimpleChangesMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
 }

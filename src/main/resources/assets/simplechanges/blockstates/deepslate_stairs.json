@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "models": "simplechanges:block/deepslate_stairs"}
+    "": { "model": "simplechanges:block/deepslate_stairs"}
   }
 }
