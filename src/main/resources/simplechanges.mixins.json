@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "sorcei.deepslatestairsmod.mixin.client",
+	"package": "net.sorcei.simplechanges.mixin",
 	"compatibilityLevel": "JAVA_17",
-	"client": [
-		"ExampleClientMixin"
+	"mixins": [
+		"ExampleMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -1,27 +1,27 @@
 {
 	"schemaVersion": 1,
-	"id": "deepslatestairsmod",
+	"id": "simplechanges",
 	"version": "${version}",
-	"name": "Deepslate Stairs Mod",
-	"description": "Fix for nonexistent deepslate stairs in custom modpack.",
+	"name": "Sorcei's Fix",
+	"description": "This is mainly to add deepslate_stairs to a custom modpack I made for my friends.",
 	"authors": [
 		"Sorcei"
 	],
 	"license": "MIT License",
-	"icon": "assets/deepslatestairsmod/icon.png",
+	"icon": "assets/simplechanges/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"sorcei.deepslatestairsmod.DeepslateStairsMod"
+            "net.sorcei.simplechanges.SimpleChangesMod"
 		],
 		"client": [
-			"sorcei.deepslatestairsmod.DeepslateStairsModClient"
+			"net.sorcei.simplechanges.SimpleChangesModClient"
 		]
 	},
 	"mixins": [
-		"deepslatestairsmod.mixins.json",
+		"simplechanges.mixins.json",
 		{
-			"config": "deepslatestairsmod.client.mixins.json",
+			"config": "simplechanges.client.mixins.json",
 			"environment": "client"
 		}
 	],
